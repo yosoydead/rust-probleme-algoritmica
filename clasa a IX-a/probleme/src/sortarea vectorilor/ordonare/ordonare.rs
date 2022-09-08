@@ -12,7 +12,8 @@ pub fn ordonare(array: &[i32], asc: bool) {
     displayArray(&array);
     let mut cp = copy(&array);
     // bubbleSort(&mut cp);
-    selectionSort(&mut cp);
+    // selectionSort(&mut cp);
+    insertionSort(&mut cp);
     displayArray(&cp);
 }
 
@@ -76,5 +77,23 @@ fn selectionSort(arr: &mut[i32]) {
         // println!("temp {}, arr currIndex {}, arrFoundIndex {}", temp, arr[currentIndex], arr[foundElem.1]);
 
         currentIndex += 1;
+    }
+}
+
+fn insertionSort(arr: &mut[i32]) {
+    let mut index = 1;
+
+    while (index < arr.len()) {
+        let mut j = index;
+        
+        while j > 0 && arr[j-1] > arr[j] {
+            let temp = arr[j-1];
+            arr[j-1] = arr[j];
+            arr[j] = temp;
+
+            j -= 1;
+        }
+
+        index += 1;
     }
 }
