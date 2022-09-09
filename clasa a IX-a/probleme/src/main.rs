@@ -12,7 +12,8 @@
 // #[path="sortarea vectorilor/sortareDivizori/sortareDivizori.rs"] mod sortareDivizori;
 // #[path="sortarea vectorilor/arhitectura2/arhitectura2.rs"] mod arhitectura2;
 // #[path="sortarea vectorilor/kSort/kSort.rs"] mod kSort;
-#[path="sortarea vectorilor/sortMax/sortMax.rs"] mod sortMax;
+// #[path="sortarea vectorilor/sortMax/sortMax.rs"] mod sortMax;
+#[path="sortarea vectorilor/cifInit/cifInit.rs"] mod cifInit;
 
 fn main() {
     println!("Hello, world!");
@@ -34,5 +35,6 @@ fn main() {
     // sortareDivizori::sortareDivizori();
     // arhitectura2::arhitectura2();
     // kSort::kSort();
-    sortMax::sortMax();
+    // sortMax::sortMax();
+    cifInit::cifInit();
 }
