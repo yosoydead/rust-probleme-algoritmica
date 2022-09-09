@@ -10,7 +10,8 @@
 // #[path="sortarea vectorilor/ordonare/ordonare.rs"] mod ordonare;
 // #[path="sortarea vectorilor/sortPrime/sortPrime.rs"] mod sortPrime;
 // #[path="sortarea vectorilor/sortareDivizori/sortareDivizori.rs"] mod sortareDivizori;
-#[path="sortarea vectorilor/arhitectura2/arhitectura2.rs"] mod arhitectura2;
+// #[path="sortarea vectorilor/arhitectura2/arhitectura2.rs"] mod arhitectura2;
+#[path="sortarea vectorilor/kSort/kSort.rs"] mod kSort;
 
 fn main() {
     println!("Hello, world!");
@@ -30,5 +31,6 @@ fn main() {
     // ordonare::ordonare(&array, true);
     // sortPrime::sortPrime(&array);
     // sortareDivizori::sortareDivizori();
-    arhitectura2::arhitectura2();
+    // arhitectura2::arhitectura2();
+    kSort::kSort();
 }
