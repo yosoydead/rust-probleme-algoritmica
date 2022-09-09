@@ -9,7 +9,8 @@
 // #[path="operatori si expresii/camioane/camioane.rs"] mod camioane;
 // #[path="sortarea vectorilor/ordonare/ordonare.rs"] mod ordonare;
 // #[path="sortarea vectorilor/sortPrime/sortPrime.rs"] mod sortPrime;
-#[path="sortarea vectorilor/sortareDivizori/sortareDivizori.rs"] mod sortareDivizori;
+// #[path="sortarea vectorilor/sortareDivizori/sortareDivizori.rs"] mod sortareDivizori;
+#[path="sortarea vectorilor/arhitectura2/arhitectura2.rs"] mod arhitectura2;
 
 fn main() {
     println!("Hello, world!");
@@ -28,5 +29,6 @@ fn main() {
     // let array: [i32; 30] = [691, 901, 471, 999, 810, 209, 493, 959, 340, 946, 265, 794, 988, 29, 191, 728, 171, 78, 742, 273, 390, 22, 26, 299, 172, 707, 212, 173, 53, 830];
     // ordonare::ordonare(&array, true);
     // sortPrime::sortPrime(&array);
-    sortareDivizori::sortareDivizori();
+    // sortareDivizori::sortareDivizori();
+    arhitectura2::arhitectura2();
 }
