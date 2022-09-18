@@ -13,7 +13,15 @@
 // #[path="sortarea vectorilor/arhitectura2/arhitectura2.rs"] mod arhitectura2;
 // #[path="sortarea vectorilor/kSort/kSort.rs"] mod kSort;
 // #[path="sortarea vectorilor/sortMax/sortMax.rs"] mod sortMax;
-#[path="sortarea vectorilor/cifInit/cifInit.rs"] mod cifInit;
+// #[path="sortarea vectorilor/cifInit/cifInit.rs"] mod cifInit;
+// #[path="sortarea vectorilor/sortareCrescatoare/sortareCrescatoare.rs"] mod sortareCrescatoare;
+// #[path="sortarea vectorilor/sortareMunte/sortareMunte.rs"] mod sortareMunte;
+// #[path="sortarea vectorilor/sortareIntreIndici/sortareIntreIndici.rs"] mod sortareIntreIndici;
+// #[path="sortarea vectorilor/sortarePrimaCifra/sortarePrimaCifra.rs"] mod sortarePrimaCifra;
+// #[path="sortarea vectorilor/educatieFizica/educatieFizica.rs"] mod educatieFizica;
+// #[path="sortarea vectorilor/sortareSumaCifrelor/sortareSumaCifrelor.rs"] mod sortareSumaCifrelor;
+#[path="sortarea vectorilor/sortareNumarDivizori/sortareNumarDivizori.rs"] mod sortareNumarDivizori;
+
 
 fn main() {
     println!("Hello, world!");
@@ -36,5 +44,12 @@ fn main() {
     // arhitectura2::arhitectura2();
     // kSort::kSort();
     // sortMax::sortMax();
-    cifInit::cifInit();
+    // cifInit::cifInit();
+    // sortareCrescatoare::sortareCrescatoare();
+    // sortareMunte::sortareMunte();
+    // sortareIntreIndici::sortareIntreIndici();
+    // sortarePrimaCifra::sortarePrimaCifra();
+    // educatieFizica::educatieFizica();
+    // sortareSumaCifrelor::sortareSumaCifrelor();
+    sortareNumarDivizori::sortareNumarDivizori();
 }
