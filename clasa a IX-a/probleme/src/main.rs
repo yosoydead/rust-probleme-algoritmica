@@ -22,7 +22,12 @@
 // #[path="sortarea vectorilor/sortareSumaCifrelor/sortareSumaCifrelor.rs"] mod sortareSumaCifrelor;
 // #[path="sortarea vectorilor/sortareNumarDivizori/sortareNumarDivizori.rs"] mod sortareNumarDivizori;
 // #[path="vectori unidimensioali/secvente in vectori/secventeDeNumereEgale/secventeDeNumereEgale.rs"] mod secventeDeNumereEgale;
-#[path="vectori unidimensioali/secvente in vectori/secventaDeNumereEgale/secventaDeNumereEgale.rs"] mod secventaDeNumereEgale;
+// #[path="vectori unidimensioali/secvente in vectori/secventaDeNumereEgale/secventaDeNumereEgale.rs"] mod secventaDeNumereEgale;
+// #[path="vectori unidimensioali/generari siruri/fibonacci/fibonacci.rs"] mod fibonacci;
+// #[path="vectori unidimensioali/generari siruri/fibonacci2/fibonacci2.rs"] mod fibonacci2;
+// #[path="vectori unidimensioali/generari siruri/fibonacciGeneralizat/fibonacciGeneralizat.rs"] mod fibonacciGeneralizat;
+// #[path="vectori unidimensioali/generari siruri/generareSir/generareSir.rs"] mod generareSir;
+#[path="vectori unidimensioali/generari siruri/verificareFib/verificareFib.rs"] mod verificareFib;
 
 fn main() {
     println!("Hello, world!");
@@ -54,5 +59,10 @@ fn main() {
     // sortareSumaCifrelor::sortareSumaCifrelor();
     // sortareNumarDivizori::sortareNumarDivizori();
     // secventeDeNumereEgale::secventeDeNumereEgale();
-    secventaDeNumereEgale::secventaDeNumereEgale();
+    // secventaDeNumereEgale::secventaDeNumereEgale();
+    // fibonacci::fibonacci();
+    // fibonacci2::fibonacci2();
+    // fibonacciGeneralizat::fibonacciGeneralizat();
+    // generareSir::generareSir();
+    verificareFib::verificareFib();
 }
