@@ -20,8 +20,9 @@
 // #[path="sortarea vectorilor/sortarePrimaCifra/sortarePrimaCifra.rs"] mod sortarePrimaCifra;
 // #[path="sortarea vectorilor/educatieFizica/educatieFizica.rs"] mod educatieFizica;
 // #[path="sortarea vectorilor/sortareSumaCifrelor/sortareSumaCifrelor.rs"] mod sortareSumaCifrelor;
-#[path="sortarea vectorilor/sortareNumarDivizori/sortareNumarDivizori.rs"] mod sortareNumarDivizori;
-
+// #[path="sortarea vectorilor/sortareNumarDivizori/sortareNumarDivizori.rs"] mod sortareNumarDivizori;
+// #[path="vectori unidimensioali/secvente in vectori/secventeDeNumereEgale/secventeDeNumereEgale.rs"] mod secventeDeNumereEgale;
+#[path="vectori unidimensioali/secvente in vectori/secventaDeNumereEgale/secventaDeNumereEgale.rs"] mod secventaDeNumereEgale;
 
 fn main() {
     println!("Hello, world!");
@@ -51,5 +52,7 @@ fn main() {
     // sortarePrimaCifra::sortarePrimaCifra();
     // educatieFizica::educatieFizica();
     // sortareSumaCifrelor::sortareSumaCifrelor();
-    sortareNumarDivizori::sortareNumarDivizori();
+    // sortareNumarDivizori::sortareNumarDivizori();
+    // secventeDeNumereEgale::secventeDeNumereEgale();
+    secventaDeNumereEgale::secventaDeNumereEgale();
 }
