@@ -27,7 +27,21 @@
 // #[path="vectori unidimensioali/generari siruri/fibonacci2/fibonacci2.rs"] mod fibonacci2;
 // #[path="vectori unidimensioali/generari siruri/fibonacciGeneralizat/fibonacciGeneralizat.rs"] mod fibonacciGeneralizat;
 // #[path="vectori unidimensioali/generari siruri/generareSir/generareSir.rs"] mod generareSir;
-#[path="vectori unidimensioali/generari siruri/verificareFib/verificareFib.rs"] mod verificareFib;
+// #[path="vectori unidimensioali/generari siruri/verificareFib/verificareFib.rs"] mod verificareFib;
+// #[path="vectori unidimensioali/parcurgeri/afisare/afisare.rs"] mod afisare;
+// #[path="vectori unidimensioali/parcurgeri/afisare2/afisare2.rs"] mod afisare2;
+// #[path="vectori unidimensioali/parcurgeri/inlocuire/inlocuire.rs"] mod inlocuire;
+// #[path="vectori unidimensioali/parcurgeri/afisare3/afisare3.rs"] mod afisare3;
+// #[path="vectori unidimensioali/parcurgeri/afisare4/afisare4.rs"] mod afisare4;
+// #[path="vectori unidimensioali/parcurgeri/determinare/determinare.rs"] mod determinare;
+// #[path="vectori unidimensioali/parcurgeri/pozitiiMinMax/pozitiiMinMax.rs"] mod pozitiiMinMax;
+// #[path="vectori unidimensioali/parcurgeri/determinare2/determinare2.rs"] mod determinare2;
+// #[path="vectori unidimensioali/parcurgeri/determinare4/determinare4.rs"] mod determinare4;
+// #[path="vectori unidimensioali/parcurgeri/toateDiferite/toateDiferite.rs"] mod toateDiferite;
+// #[path="vectori unidimensioali/parcurgeri/esteSirPalindrom/esteSirPalindrom.rs"] mod esteSirPalindrom;
+// #[path="vectori unidimensioali/parcurgeri/determinare3/determinare3.rs"] mod determinare3;
+// #[path="vectori unidimensioali/parcurgeri/ordonateAlternativ/ordonateAlternativ.rs"] mod ordonateAlternativ;
+#[path="vectori unidimensioali/parcurgeri/existaNumarPerfect/existaNumarPerfect.rs"] mod existaNumarPerfect;
 
 fn main() {
     println!("Hello, world!");
@@ -64,5 +78,19 @@ fn main() {
     // fibonacci2::fibonacci2();
     // fibonacciGeneralizat::fibonacciGeneralizat();
     // generareSir::generareSir();
-    verificareFib::verificareFib();
+    // verificareFib::verificareFib();
+    // afisare::afisare();
+    // afisare2::afisare2();
+    // inlocuire::inlocuire();
+    // afisare3::afisare3();
+    // afisare4::afisare4();
+    // determinare::determinare();
+    // pozitiiMinMax::pozitiiMinMax();
+    // determinare2::determinare2();
+    // determinare4::determinare4();
+    // toateDiferite::toateDiferite();
+    // esteSirPalindrom::esteSirPalindrom();
+    // determinare3::determinare3();
+    // ordonateAlternativ::ordonateAlternativ();
+    existaNumarPerfect::existaNumarPerfect();
 }
