@@ -45,7 +45,9 @@
 // #[path="vectori unidimensioali/parcurgeri/determinare5/determinare5.rs"] mod determinare5;
 // #[path="vectori unidimensioali/parcurgeri/determinare6/determinare6.rs"] mod determinare6;
 // #[path="vectori unidimensioali/parcurgeri/estePermutare/estePermutare.rs"] mod estePermutare;
-#[path="vectori unidimensioali/parcurgeri/apareOglinditul/apareOglinditul.rs"] mod apareOglinditul;
+// #[path="vectori unidimensioali/parcurgeri/apareOglinditul/apareOglinditul.rs"] mod apareOglinditul;
+// #[path="cautare binara/cautareBinara/cautareBinara.rs"] mod cautareBinara;
+// #[path="cautare binara/comenzi/comenzi.rs"] mod comenzi;
 
 fn main() {
     println!("Hello, world!");
@@ -100,5 +102,7 @@ fn main() {
     // determinare5::determinare5();
     // determinare6::determinare6();
     // estePermutare::estePermutare();
-    apareOglinditul::apareOglinditul();
+    // apareOglinditul::apareOglinditul();
+    // cautareBinara::cautareBinara();
+    // comenzi::comenzi();
 }
