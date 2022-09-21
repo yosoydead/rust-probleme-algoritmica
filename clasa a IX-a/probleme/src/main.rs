@@ -41,7 +41,11 @@
 // #[path="vectori unidimensioali/parcurgeri/esteSirPalindrom/esteSirPalindrom.rs"] mod esteSirPalindrom;
 // #[path="vectori unidimensioali/parcurgeri/determinare3/determinare3.rs"] mod determinare3;
 // #[path="vectori unidimensioali/parcurgeri/ordonateAlternativ/ordonateAlternativ.rs"] mod ordonateAlternativ;
-#[path="vectori unidimensioali/parcurgeri/existaNumarPerfect/existaNumarPerfect.rs"] mod existaNumarPerfect;
+// #[path="vectori unidimensioali/parcurgeri/existaNumarPerfect/existaNumarPerfect.rs"] mod existaNumarPerfect;
+// #[path="vectori unidimensioali/parcurgeri/determinare5/determinare5.rs"] mod determinare5;
+// #[path="vectori unidimensioali/parcurgeri/determinare6/determinare6.rs"] mod determinare6;
+// #[path="vectori unidimensioali/parcurgeri/estePermutare/estePermutare.rs"] mod estePermutare;
+#[path="vectori unidimensioali/parcurgeri/apareOglinditul/apareOglinditul.rs"] mod apareOglinditul;
 
 fn main() {
     println!("Hello, world!");
@@ -92,5 +96,9 @@ fn main() {
     // esteSirPalindrom::esteSirPalindrom();
     // determinare3::determinare3();
     // ordonateAlternativ::ordonateAlternativ();
-    existaNumarPerfect::existaNumarPerfect();
+    // existaNumarPerfect::existaNumarPerfect();
+    // determinare5::determinare5();
+    // determinare6::determinare6();
+    // estePermutare::estePermutare();
+    apareOglinditul::apareOglinditul();
 }
