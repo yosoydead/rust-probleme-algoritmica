@@ -48,6 +48,12 @@
 // #[path="vectori unidimensioali/parcurgeri/apareOglinditul/apareOglinditul.rs"] mod apareOglinditul;
 // #[path="cautare binara/cautareBinara/cautareBinara.rs"] mod cautareBinara;
 // #[path="cautare binara/comenzi/comenzi.rs"] mod comenzi;
+// #[path="vectori de frecventa/cifreDeFiecareTip/cifreDeFiecareTip.rs"] mod cifreDeFiecareTip;
+// #[path="vectori de frecventa/celMaiMicNumar/celMaiMicNumar.rs"] mod celMaiMicNumar;
+// #[path="vectori de frecventa/unice/unice.rs"] mod unice;
+// #[path="vectori de frecventa/perechiSosete/perechiSosete.rs"] mod perechiSosete;
+// #[path="vectori de frecventa/cifreOrd1/cifreOrd.rs"] mod cifreOrd1;
+#[path="vectori de frecventa/sumChef/sumChef.rs"] mod sumChef;
 
 fn main() {
     println!("Hello, world!");
@@ -105,4 +111,11 @@ fn main() {
     // apareOglinditul::apareOglinditul();
     // cautareBinara::cautareBinara();
     // comenzi::comenzi();
+    // cifreDeFiecareTip::cifreDeFiecareTip();
+    // celMaiMicNumar::celMaiMicNumar();
+    // celMaiMicNumar::celMaiMareNumar();
+    // unice::unice();
+    // perechiSosete::perechiSosete();
+    // cifreOrd1::cifreOrd();
+    sumChef::sumChef();
 }
