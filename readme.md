@@ -2,3 +2,4 @@
 * O sa pornesc cu clasa a IX-a si tot asa.
 * Nu o sa tin cont de chestiile cu limita de timp pt inceput.
 * Pt problemele cu citire din fisier, ori fac ceva hardcodat, ori vad sa citesc dintr-un fisier.
+* Nu cred ca o sa rezolv fiecare problema din fiecare categorie. Probabil o sa le mai selectez.
